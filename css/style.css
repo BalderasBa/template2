@@ -87,11 +87,12 @@ body {
 /* End Components */
 
 /* Start Header */
-header {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 2;
+header {    
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #0004;
 }
 header .container {
   display: flex;
